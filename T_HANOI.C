@@ -1,4 +1,6 @@
 /* Program for solution of Tower of Hanoi*/
+
+ /* Compiler Imtiyaz*/
 #include<stdio.h>
 main()
 {
@@ -9,7 +11,7 @@ main()
 	printf ("Sequence is :\n");
 	toh( ndisk, source, temp, dest );
 	getch();
-}
+}/*End of main*/
 toh( int ndisk, char source, char temp, char dest )
 {
 	if ( ndisk > 0 )
